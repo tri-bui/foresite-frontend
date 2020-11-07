@@ -1,0 +1,50 @@
+nav {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+main {
+  font-size: 1.5rem;
+  padding-bottom: 0;
+}
+
+.flex.container {
+  justify-content: space-between;
+}
+
+form {
+  width: 40%;
+  padding: 2%;
+  border: 3px solid black;
+}
+
+form input {
+  width: 90%;
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+form textarea {
+  width: 90%;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  width: 45%;
+  background-color: lightgrey;
+  margin-bottom: 0;
+}
+
+.info {
+  width: 40%;
+  padding: 2%;
+  border: 3px solid black;
+}
+
+.info h3 {
+  font-size: 2.5rem;
+}

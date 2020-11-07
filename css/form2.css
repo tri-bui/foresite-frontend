@@ -1,0 +1,53 @@
+nav {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+main {
+  font-size: 1.5rem;
+  padding-bottom: 0;
+}
+
+form {
+  padding: 5%;
+  border: 3px solid black;
+}
+
+form input {
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+form .formname {
+  width: 45%;
+}
+
+form .loginfo {
+  width: 100%;
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: -2rem 0 2rem;
+}
+
+.flexform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flexform .button {
+  width: 45%;
+  background-color: lightgrey;
+  margin-bottom: 2rem;
+}
+
+form p {
+  text-align: center;
+}

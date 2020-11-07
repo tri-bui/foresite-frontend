@@ -1,0 +1,246 @@
+html {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+h2, h3 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  /*https://www.pexels.com/photo/background-board-chart-data-590041/*/
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 50rem;
+}
+
+nav .flex.container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.name {
+  align-items: center;
+}
+
+.name img {
+  width: 4rem;
+  margin: 2rem 1rem;
+}
+
+nav h3 a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+nav h3 a:hover {
+  color: #4e8c9b;
+}
+
+nav .drop {
+  display: none;
+}
+
+nav ul li a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+  margin: 2.5rem;
+}
+
+nav ul li a:hover {
+  color: #4e8c9b;
+}
+
+.banner-text {
+  width: 50%;
+  padding: 8rem 1rem;
+}
+
+.banner-text h1 {
+  color: white;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin-bottom: 3rem;
+}
+
+.banner-text a {
+  display: block;
+  width: 65%;
+  color: white;
+  background-color: #4e8c9b;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 5%;
+}
+
+.banner-text a:hover {
+  color: #4e8c9b;
+  background-color: white;
+}
+
+@media only screen and (max-width: 1140px) {
+  header {
+    height: 45rem;
+  }
+
+  nav .drop {
+    display: inline-block;
+    color: white;
+    background-color: #4e8c9b;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    border-radius: 5%;
+  }
+
+  nav .drop:hover {
+    padding: 1rem 0;
+  }
+
+  nav ul .drop ul li {
+    display: none;
+  }
+
+  nav .drop:hover span,
+  nav .drop:focus span {
+    display: none;
+  }
+
+  nav ul .drop:hover ul li,
+  nav ul .drop:focus ul li {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  nav ul .drop:hover ul li a:hover,
+  nav ul .drop:focus ul li a:focus {
+    color: white;
+    text-decoration: underline;
+  }
+
+  nav ul li a.hide {
+    display: none;
+  }
+
+  .banner-text {
+    padding: 6rem 1rem;
+  }
+
+  .banner-text h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .home {
+    display: none;
+  }
+
+  header {
+    height: 40rem;
+  }
+
+  .banner-text {
+    padding: 2rem 1rem;
+  }
+
+  .banner-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .banner-text a {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  header {
+    background-position: left top;
+    height: 35rem;
+  }
+
+  .banner-text {
+    width: 100%;
+  }
+
+  .banner-text h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .banner-text a {
+    margin: auto;
+  }
+}
+
+main {
+  padding: 5rem 0 10rem;
+}
+
+main h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+main h2 a {
+  color: black;
+  text-decoration: none;
+}
+
+main h2 a:hover {
+  color: #4e8c9b;
+}
+
+.menu {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 5rem 1rem 0;
+}
+
+.menu-item h4 {
+  font-size: 2rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.menu-item p {
+  font-size: 1.25rem;
+}
+
+@media only screen and (max-width: 1140px) {
+  main h2 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  main h2 {
+    font-size: 2.5rem;
+  }
+}

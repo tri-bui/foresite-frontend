@@ -1,0 +1,165 @@
+html {
+  background-color: lightgrey;
+}
+
+.flex.container {
+  justify-content: center;
+}
+
+.name {
+  padding: 5rem 0;
+}
+
+.name img {
+  width: 5rem;
+  margin: 0 2rem 0 0;
+}
+
+.name h3 a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.name h3 a:hover {
+  color: #4e8c9b;
+}
+
+main {
+  width: 50%;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: auto;
+}
+
+form {
+  padding: 0 5%;
+}
+
+form h5 {
+  font-size: 4rem;
+  margin: 0 auto 3rem;
+}
+
+form input {
+  height: 3rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+form .formname {
+  width: 45%;
+}
+
+form .loginfo {
+  width: 100%;
+}
+
+form textarea {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.forgot {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: -1.5rem 0 2rem;
+}
+
+.flexform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flexform .button {
+  width: 45%;
+  color: white;
+  background-color: #4e8c9b;
+  margin-bottom: 2rem;
+}
+
+form p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 930px) {
+  .name {
+    padding: 4rem 0;
+  }
+
+  main {
+    width: 75%;
+  }
+
+  form input {
+    margin-bottom: 1.5rem;
+  }
+
+  form textarea {
+    margin-bottom: 1.5rem;
+  }
+
+  .forgot {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .flexform .button {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .name {
+    padding: 3rem 0;
+  }
+
+  .name img {
+    width: 3rem;
+    margin-right: 1rem;
+  }
+
+  .name h3 a {
+    font-size: 1.5rem;
+  }
+
+  main {
+    font-size: 0.75rem;
+  }
+
+  form input {
+    height: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  form .formname {
+    width: 100%;
+  }
+
+  form textarea {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .forgot {
+    margin-top: -0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .flexform .button {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .flexform .reset {
+    display: none;
+  }
+}
